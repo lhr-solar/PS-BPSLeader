@@ -1978,7 +1978,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "-- mixed values --"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1989,7 +1989,7 @@
 				)
 			)
 		)
-		(property "Mouser P/N" "GRM21BR61H106KE43K"
+		(property "Mouser P/N" "-- mixed values --"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2001,6 +2001,28 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43L "
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2227,7 +2249,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "-- mixed values --"
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2238,7 +2260,7 @@
 				)
 			)
 		)
-		(property "Mouser P/N" "GRM21BR61H106KE43K"
+		(property "Mouser P/N" "-- mixed values --"
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2250,6 +2272,28 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 165.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 165.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43L "
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)

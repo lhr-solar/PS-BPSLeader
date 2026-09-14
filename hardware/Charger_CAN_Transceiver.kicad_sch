@@ -28512,7 +28512,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 85.725 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -28535,6 +28535,28 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 85.725 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 85.725 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
 			(at 85.725 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -28638,6 +28660,17 @@
 			)
 		)
 		(property "P/N" "CDSOT23-T24CAN"
+			(at 206.375 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2959841 "
 			(at 206.375 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -28938,7 +28971,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 97.155 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -28961,6 +28994,28 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 97.155 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 97.155 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
 			(at 97.155 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -29053,7 +29108,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 74.295 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -29075,7 +29130,29 @@
 				)
 			)
 		)
-		(property "P/N" "GRM21BR61H106KE43K"
+		(property "P/N" "GRM21BR61H106KE43L "
+			(at 74.295 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "-- mixed values --"
+			(at 74.295 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
 			(at 74.295 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -29175,7 +29252,51 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
+			(at 201.295 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 201.295 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 201.295 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 201.295 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 201.295 90.805 0)
 			(hide yes)
 			(show_name no)

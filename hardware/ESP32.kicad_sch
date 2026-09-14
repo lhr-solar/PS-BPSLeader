@@ -5108,7 +5108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 200.66 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5119,7 +5119,7 @@
 				)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" "-- mixed values --"
 			(at 200.66 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5212,7 +5212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://GRM21BR61H106KE43_01A.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 71.12 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5246,6 +5246,17 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 71.12 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" "-- mixed values --"
 			(at 71.12 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5616,6 +5627,17 @@
 				)
 			)
 		)
+		(property "Mfg" "-- mixed values --"
+			(at 148.59 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11d042e8-8620-4758-8f88-1ad2b76f411f")
 		)
@@ -5948,7 +5970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 200.66 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +5981,7 @@
 				)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" "-- mixed values --"
 			(at 200.66 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6052,7 +6074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://GRM21BR61H106KE43_01A.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 139.7 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6086,6 +6108,17 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" "-- mixed values --"
 			(at 139.7 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6368,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 199.39 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6379,7 +6412,7 @@
 				)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" "-- mixed values --"
 			(at 199.39 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6390,7 +6423,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 199.39 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -6410,6 +6443,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 199.39 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6471,7 +6515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 107.95 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6482,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" "-- mixed values --"
 			(at 107.95 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6493,7 +6537,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 107.95 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -6513,6 +6557,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 107.95 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6650,7 +6705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 54.61 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6661,7 +6716,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "-- mixed values --"
 			(at 54.61 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6692,6 +6747,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Mfg" "-- mixed values --"
+			(at 54.61 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6754,7 +6820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 157.48 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6765,7 +6831,7 @@
 				)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" "-- mixed values --"
 			(at 157.48 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6842,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 157.48 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -6796,6 +6862,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 157.48 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7081,6 +7158,17 @@
 				)
 			)
 		)
+		(property "Mfg" "-- mixed values --"
+			(at 157.48 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c08e6911-cf60-4ee7-8292-ac4c969f8cb9")
 		)
@@ -7138,7 +7226,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 54.61 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7149,7 +7237,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "-- mixed values --"
 			(at 54.61 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7180,6 +7268,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Mfg" "-- mixed values --"
+			(at 54.61 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7241,7 +7340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://usb4105-spec.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 35.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7263,7 +7362,7 @@
 				)
 			)
 		)
-		(property "P/N" "USB4105-GF-A"
+		(property "P/N" "-- mixed values --"
 			(at 31.75 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7602,7 +7701,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
+		(property "Datasheet" "-- mixed values --"
 			(at 200.66 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7613,7 +7712,7 @@
 				)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" "-- mixed values --"
 			(at 200.66 24.13 0)
 			(hide yes)
 			(show_name no)

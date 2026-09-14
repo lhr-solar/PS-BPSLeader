@@ -5345,8 +5345,52 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 129.54 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 129.54 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 129.54 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 129.54 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5433,6 +5477,28 @@
 			)
 		)
 		(property "Description" "Zener diode"
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C183490 "
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "SMAF4758A-TP "
 			(at 43.18 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5740,7 +5806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-- mixed values --"
 			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5751,7 +5817,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "-- mixed values --"
 			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5762,7 +5828,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI"
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5773,7 +5839,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
+		(property "Mouser Part Number" "-- mixed values --"
 			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5978,7 +6044,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6001,6 +6067,28 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 34.29 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 34.29 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
 			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6205,8 +6293,52 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 110.49 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 110.49 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 110.49 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 110.49 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6650,7 +6782,18 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "MSASH168SB5103KTNA01"
+		(property "LCSC P/N" "C100042 "
+			(at 60.96 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB103 "
 			(at 60.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6737,7 +6880,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 109.22 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6748,7 +6891,7 @@
 				)
 			)
 		)
-		(property "P/N" "GRM21BR61H106KE43K"
+		(property "P/N" "GRM21BR61H106KE43L "
 			(at 109.22 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -6760,6 +6903,28 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 109.22 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "-- mixed values --"
+			(at 109.22 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
 			(at 109.22 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7137,6 +7302,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 35.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c25b94cb-e033-4c0d-8a3c-c233e6cf28fe")
 		)
@@ -7224,7 +7400,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603221KFKEA"
+		(property "P/N" "CRCW0603100KFKEE  "
 			(at 115.57 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7331,7 +7507,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI"
+		(property "P/N" "CRCW0603100KFKEE  "
 			(at 134.62 77.47 0)
 			(hide yes)
 			(show_name no)

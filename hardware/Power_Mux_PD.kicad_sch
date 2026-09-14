@@ -3331,6 +3331,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C321818 "
+			(at 53.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CR0603-FX-2612ELF "
+			(at 53.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45a4b318-2579-4ee0-b0d5-3b5262d8e828")
 		)
@@ -3403,6 +3425,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 39.37 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C862232 "
+			(at 39.37 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RT0603BRE075KL "
 			(at 39.37 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -3495,6 +3539,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C862232 "
+			(at 26.67 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RT0603BRE075KL "
+			(at 26.67 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fce546a8-1472-499d-b069-7d8262b8d057")
 		)
@@ -3577,6 +3643,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C2933240 "
+			(at 26.67 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CR0603-FX-5762ELF "
+			(at 26.67 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "340a5205-b146-4baa-a6dc-abc3870168a9")
 		)
@@ -3648,7 +3736,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "-- mixed values --"
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25803 "
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW0603100KFKEE  "
 			(at 39.37 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3731,6 +3841,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 111.76 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2960862 "
+			(at 111.76 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RT0603FRE0722K1L "
 			(at 111.76 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -3954,6 +4086,17 @@
 				)
 			)
 		)
+		(property "P/N" "TPS2121RUXR "
+			(at 130.175 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48fcf3f0-ad36-43ae-8324-43b9772ad4a2")
 		)
@@ -4078,6 +4221,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C2933240 "
+			(at 66.675 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CR0603-FX-5762ELF "
+			(at 66.675 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "43fdd617-805a-4128-a160-73145a3a34c6")
 		)
@@ -4138,7 +4303,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-- mixed values --"
 			(at 105.41 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -4149,7 +4314,62 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "-- mixed values --"
+			(at 105.41 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 105.41 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C15849 "
+			(at 105.41 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 105.41 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 105.41 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB105 "
 			(at 105.41 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -4242,6 +4462,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C862232 "
+			(at 53.34 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RT0603BRE075KL "
+			(at 53.34 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93f9182b-e59b-43d4-af84-247a044e4aeb")
 		)
@@ -4314,6 +4556,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 66.675 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C862232 "
+			(at 66.675 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RT0603BRE075KL "
 			(at 66.675 57.785 0)
 			(hide yes)
 			(show_name no)

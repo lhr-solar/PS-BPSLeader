@@ -1861,7 +1861,18 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
+		(property "Mfg" "-- mixed values --"
+			(at 88.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1970,7 +1981,18 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
+		(property "Mfg" "-- mixed values --"
+			(at 35.56 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2079,7 +2101,18 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
+		(property "Mfg" "-- mixed values --"
+			(at 21.59 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 21.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2188,7 +2221,18 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
+		(property "Mfg" "-- mixed values --"
+			(at 39.37 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 39.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2344,6 +2388,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C22399676 "
+			(at 60.96 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "1d71c282-9f81-4cee-abb9-86298b56910c")
 		)
@@ -2436,7 +2491,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 76.2 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2447,8 +2502,41 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 76.2 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 76.2 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

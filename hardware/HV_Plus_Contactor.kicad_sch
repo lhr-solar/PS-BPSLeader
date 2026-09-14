@@ -5311,6 +5311,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C2933250 "
+			(at 45.085 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "AC0603FR-0766K5L "
+			(at 45.085 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "416bafa2-df85-4ec5-8bc5-fef9038e511f")
 		)
@@ -5397,6 +5419,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C54920924 "
+			(at 130.175 55.245 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CR0603-FX-4301ELF "
+			(at 130.175 55.245 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "10160c3b-d6b6-4c57-951a-6c94ef1bb72c")
 		)
@@ -5474,7 +5518,29 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
+			(at 55.245 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C105911 "
+			(at 55.245 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "-- mixed values --"
 			(at 55.245 70.485 0)
 			(hide yes)
 			(show_name no)
@@ -5586,7 +5652,18 @@
 				)
 			)
 		)
-		(property "P/N" "IRLML0030"
+		(property "P/N" "IRLML0030TRPBF"
+			(at 135.255 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C67272 "
 			(at 135.255 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -5666,7 +5743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-- mixed values --"
 			(at 52.705 98.425 0)
 			(hide yes)
 			(show_name no)
@@ -5677,7 +5754,62 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "-- mixed values --"
+			(at 52.705 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 52.705 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C15849 "
+			(at 52.705 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 52.705 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "-- mixed values --"
+			(at 52.705 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CC0603KRX7R9BB105 "
 			(at 52.705 98.425 0)
 			(hide yes)
 			(show_name no)
@@ -5765,7 +5897,29 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
+			(at 40.64 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C105911 "
+			(at 40.64 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "-- mixed values --"
 			(at 40.64 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -5853,7 +6007,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
+			(at 60.96 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C844719 "
+			(at 60.96 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EAHP "
 			(at 60.96 99.695 0)
 			(hide yes)
 			(show_name no)
@@ -6043,7 +6219,51 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
+			(at 195.58 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 195.58 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 195.58 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 195.58 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 195.58 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -6186,6 +6406,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C84263"
+			(at 122.555 61.595 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6795570-9a28-4e00-a9be-d360fb5cae1b")
 		)
@@ -6280,6 +6511,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C2906987 "
+			(at 68.58 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RK73B1JTTD124J "
+			(at 68.58 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1b9d3a4-b716-47be-8a3d-19af1a3058d4")
 		)
@@ -6355,8 +6608,52 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 123.19 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 123.19 84.455 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 123.19 84.455 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 123.19 84.455 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CR0603-FX-1002ELF "
+			(at 123.19 84.455 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,6 +6735,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.765 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14665 "
+			(at 151.765 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "KGM15AR71C101KT "
 			(at 151.765 97.155 0)
 			(hide yes)
 			(show_name no)
@@ -6550,7 +6869,18 @@
 				)
 			)
 		)
-		(property "P/N" "IRLML0030"
+		(property "P/N" "IRLML0030TRPBF"
+			(at 198.12 45.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C67272 "
 			(at 198.12 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -6647,7 +6977,51 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
+			(at 64.77 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 64.77 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190 "
+			(at 64.77 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 64.77 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI  "
 			(at 64.77 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -6733,8 +7107,52 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 143.51 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 143.51 90.805 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190 "
+			(at 143.51 90.805 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 143.51 90.805 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI  "
+			(at 143.51 90.805 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,6 +7251,17 @@
 			)
 		)
 		(property "LCSC P/N" "C2653796"
+			(at 91.44 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "DRV110APWR "
 			(at 91.44 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -6956,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 210.82 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -6967,7 +7396,7 @@
 				)
 			)
 		)
-		(property "P/N" "HMK107B7104KA-T"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 210.82 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -6978,7 +7407,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "963-HMK107B7104KA-T"
+		(property "Mouser Part Number" "-- mixed values --"
 			(at 210.82 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -6989,8 +7418,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "-- mixed values --"
 			(at 214.63 52.7051 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 210.82 51.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7084,6 +7524,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 137.795 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2907004 "
+			(at 137.795 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "RK73B1JTTD1R0J "
 			(at 137.795 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7206,6 +7668,17 @@
 		)
 		(property "LCSC" "C6326606"
 			(at 45.085 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C6326606 "
+			(at 47.625 70.485 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7386,8 +7859,52 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 220.98 45.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-- mixed values --"
+			(at 220.98 45.085 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 220.98 45.085 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 220.98 45.085 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CR0603-FX-1002ELF "
+			(at 220.98 45.085 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,6 +7991,17 @@
 			)
 		)
 		(property "Description" "Pinout for contactor connectors."
+			(at 253.365 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "105313-1104 "
 			(at 253.365 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7610,6 +8138,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C6326606 "
+			(at 137.795 61.595 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ff6f7e4-01e8-4266-8b84-4245f473cf94")
 		)
@@ -7683,7 +8222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-- mixed values --"
 			(at 186.69 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -7694,7 +8233,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "-- mixed values --"
 			(at 186.69 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -7705,7 +8244,7 @@
 				)
 			)
 		)
-		(property "P/N" "UMK107BJ105KA-T"
+		(property "P/N" "CC0603KRX7R9BB105 "
 			(at 186.69 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -7716,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
+		(property "Mouser Part Number" "-- mixed values --"
 			(at 186.69 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -7727,8 +8266,30 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "-- mixed values --"
 			(at 183.515 56.5149 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C15849 "
+			(at 186.69 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "-- mixed values --"
+			(at 186.69 57.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

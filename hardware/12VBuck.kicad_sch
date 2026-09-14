@@ -8060,7 +8060,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "-- mixed values --"
 			(at 96.5669 58.5802 0)
 			(hide yes)
 			(show_name no)
@@ -8071,7 +8071,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C6962403"
+		(property "LCSC P/N" "C105911 "
 			(at 96.5669 58.5802 0)
 			(hide yes)
 			(show_name no)
@@ -8082,7 +8082,7 @@
 				)
 			)
 		)
-		(property "P/N" "08055D475KAT4A"
+		(property "P/N" "-- mixed values --"
 			(at 96.5669 58.5802 0)
 			(hide yes)
 			(show_name no)

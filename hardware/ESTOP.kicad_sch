@@ -2383,7 +2383,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 60.96 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2394,7 +2394,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 60.96 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2405,7 +2405,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603120RFKEC "
+		(property "P/N" "CRCW06031K00FKEI  "
 			(at 60.96 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2416,8 +2416,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "-- mixed values --"
 			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190 "
+			(at 60.96 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2580,7 +2591,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 59.69 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2591,7 +2602,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 59.69 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2602,7 +2613,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 59.69 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2613,8 +2624,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "-- mixed values --"
 			(at 61.976 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,6 +2769,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C84263"
+			(at 50.8 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72d3df63-c9b3-4106-9b94-9f1bb67c7193")
 		)
@@ -2818,7 +2851,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 82.55 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2829,7 +2862,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 82.55 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2840,7 +2873,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 82.55 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2851,8 +2884,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "-- mixed values --"
 			(at 80.772 110.744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 82.55 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,6 +3061,28 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C10487 "
+			(at 77.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "SQ2315CES-T1_GE3 "
+			(at 77.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54ffd0d2-9e2a-4544-a5d3-cc57bac2c18c")
 		)
@@ -3091,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +3168,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3113,7 +3179,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3124,8 +3190,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "-- mixed values --"
 			(at 60.706 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 58.42 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3312,7 +3389,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3323,7 +3400,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3334,7 +3411,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3345,8 +3422,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "-- mixed values --"
 			(at 80.772 81.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3447,7 +3535,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CRCW060333K0FKEA "
 			(at 88.9 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3460,6 +3548,17 @@
 		)
 		(property "LCSC" "C844778"
 			(at 88.646 74.168 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C4216 "
+			(at 88.9 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,6 +3682,17 @@
 		)
 		(property "LCSC" "C84263"
 			(at 49.784 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C84263"
+			(at 49.53 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3742,7 +3852,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 59.69 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3753,7 +3863,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 59.69 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3764,7 +3874,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 59.69 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3775,8 +3885,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "-- mixed values --"
 			(at 61.976 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 59.69 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3987,6 +4108,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C84263"
+			(at 49.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cfd3668c-dfdf-40db-8537-04fdead0d276")
 		)
@@ -4131,6 +4263,28 @@
 			)
 		)
 		(property "LCSC" "C10487"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C10487 "
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "SQ2315CES-T1_GE3 "
 			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4288,6 +4442,28 @@
 			)
 		)
 		(property "LCSC" "C10487"
+			(at 76.2 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C10487 "
+			(at 76.2 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "SQ2315CES-T1_GE3 "
 			(at 76.2 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4526,7 +4702,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 62.23 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4537,7 +4713,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 62.23 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4548,7 +4724,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603120RFKEC "
+		(property "P/N" "CRCW06031K00FKEI  "
 			(at 62.23 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4559,8 +4735,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "-- mixed values --"
 			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190 "
+			(at 62.23 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4984,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 60.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4808,7 +4995,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 60.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4819,7 +5006,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603120RFKEC "
+		(property "P/N" "CRCW06031K00FKEI  "
 			(at 60.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4830,8 +5017,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "-- mixed values --"
 			(at 60.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190 "
+			(at 60.96 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4912,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-- mixed values --"
 			(at 82.55 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4923,7 +5121,7 @@
 				)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
+		(property "Manufactuerer" "-- mixed values --"
 			(at 82.55 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4934,7 +5132,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CR0603-FX-1002ELF "
 			(at 82.55 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4945,8 +5143,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "-- mixed values --"
 			(at 80.772 49.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804 "
+			(at 82.55 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5204,7 +5413,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CRCW060333K0FKEA "
 			(at 88.9 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5217,6 +5426,17 @@
 		)
 		(property "LCSC" "C844778"
 			(at 88.646 42.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C4216 "
+			(at 88.9 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5476,7 +5696,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CRCW060333K0FKEA "
 			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5489,6 +5709,17 @@
 		)
 		(property "LCSC" "C844778"
 			(at 88.646 103.378 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C4216 "
+			(at 88.9 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
