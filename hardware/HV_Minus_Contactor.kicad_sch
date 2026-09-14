@@ -7403,7 +7403,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bb0455c7-2279-4284-8ee1-30f483ffb4f3")
 		(property "Reference" "TP9"
 			(at 118.11 71.755 0)

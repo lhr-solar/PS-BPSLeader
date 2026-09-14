@@ -5895,7 +5895,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "43714994-863a-4cac-a3c8-53f19854e9d0")
 		(property "Reference" "TP8"
 			(at 188.214 43.561 0)

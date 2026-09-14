@@ -5347,7 +5347,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0ef1ec23-cd75-4804-9927-81efe00c15b2")
 		(property "Reference" "TP5"
 			(at 115.57 71.755 0)

@@ -32926,7 +32926,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "445db25e-3691-454f-b775-7dc00981e2e1")
 		(property "Reference" "TP20"
 			(at 238.76 104.9019 0)
@@ -35840,7 +35840,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c0c0b16b-204b-4fd9-8e83-555d511c0b79")
 		(property "Reference" "TP15"
