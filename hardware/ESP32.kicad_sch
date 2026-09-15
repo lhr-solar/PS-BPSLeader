@@ -7362,7 +7362,7 @@
 				)
 			)
 		)
-		(property "P/N" "-- mixed values --"
+		(property "P/N" "USB4105-GF-A"
 			(at 31.75 87.63 0)
 			(hide yes)
 			(show_name no)
