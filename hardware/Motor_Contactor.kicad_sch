@@ -5255,7 +5255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a806815-d13a-4b25-bcf3-61fc5a471ee5")
-		(property "Reference" "J15"
+		(property "Reference" "J12"
 			(at 248.285 33.6549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5342,7 +5342,7 @@
 			)
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/8dff3833-5b3d-484d-a711-1f7fb0d1bbda"
-					(reference "J15")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5360,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "0ef1ec23-cd75-4804-9927-81efe00c15b2")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 115.57 71.755 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5438,7 @@
 			)
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/8dff3833-5b3d-484d-a711-1f7fb0d1bbda"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6476,7 +6476,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "8bce62ab-fab0-453a-a3da-354b25df050a")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 191.389 46.101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +6554,7 @@
 			)
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/8dff3833-5b3d-484d-a711-1f7fb0d1bbda"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)

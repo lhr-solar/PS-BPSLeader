@@ -970,7 +970,7 @@
         "uuid": "d4a4ed4f-0983-4aef-b212-0e3284ab3963"
       }
     ],
-    "used_designators": "R91,LOGO1-2",
+    "used_designators": "R1-142,#FLG1-12,FAN1-4,C1-107,LOGO1-2,D1-32,T1-2,#PWR1-48,E_JP1-3,ESTOP1-3,F1-2,FB1-2,H1-4,IC1-7,J1-14,JP1-3,L1-2,Q1-14,Reset1,SW1-3,TP1-19,TP_3.3V1-2,U1-18,Y1",
     "variants": []
   },
   "sheets": [
