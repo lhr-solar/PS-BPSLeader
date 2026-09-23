@@ -3341,7 +3341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_1.8x2.6mm_P0.4mm_EP0.7x1.5mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
 			(at 92.71 36.83 0)
 			(hide yes)
 			(show_name no)

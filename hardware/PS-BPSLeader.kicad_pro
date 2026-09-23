@@ -81,28 +81,7 @@
           "width": 0.2
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_overlap|142094819|49458928|55ef20ec-1a7b-44fa-a968-d0234b71ae58|a1a97f3c-862f-4beb-b6b8-81d5e45fcb32",
-          ""
-        ],
-        [
-          "silk_overlap|150832142|72764409|7c42b4b2-d2a6-422f-acdd-518ef1ce5383|c1901e28-c3d8-4b42-abc9-08e3a5effc02",
-          ""
-        ],
-        [
-          "silk_overlap|150832142|90864409|6e659f55-c307-4056-81cf-ca5f2f0bcbd8|94a2521c-e2ff-4ea6-8c7f-eb83e85baa8b",
-          ""
-        ],
-        [
-          "silk_overlap|175825190|113656356|2b29158a-62ac-42e2-993a-c84f94cf18ea|2d2a0bfb-8c9d-4323-a796-73c1495b42d2",
-          ""
-        ],
-        [
-          "silk_overlap|188525190|113370642|36eeac70-51dc-46f7-9032-70da1c98a15e|399656c3-a581-42d9-b7e2-6c561cc57f56",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -148,7 +127,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "ignore",
@@ -970,7 +949,7 @@
         "uuid": "d4a4ed4f-0983-4aef-b212-0e3284ab3963"
       }
     ],
-    "used_designators": "R91,LOGO1-2",
+    "used_designators": "R91,C108-109,LOGO1-2",
     "variants": []
   },
   "sheets": [
