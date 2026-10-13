@@ -1,0 +1,96 @@
+#### T1: 8-Cell Configuration
+
+- [ ]  T1.1: 8S strapping and channel mapping
+    1. Test: EVM 0 Ω straps only go down to 12S (EVM minimum is 6 cells). For 8S, short VC9–VC16 and CB9–CB16 to the top cell at the J15 harness connector, matching the SMB's VC/CB split constraint. Set active cell count (GUI: Cell Monitor → View Poll Settings → No. of cells = 8). Apply distinct voltages to cells 1–8 (e.g. 3.2, 3.4, 3.5, 3.6, 3.7, 3.8, 4.0, 4.1 V) so a channel swap is visible.
+    2. Expected result: VCELL1–8 match the applied voltages on the correct physical channels; unused channels report as expected.
+    3. Actual result:
+
+#### T2: Voltage + GPIO Thermistor Measurements
+
+- [ ]  T2.1: TSREF under full load
+    1. Test: J4 shunts on all 8 GPIO pairs, J5 populated for TSREF pull-up. Configure GPIO_CONF for ADC input.
+    2. Expected result: TSREF is present and in regulation with all 8 thermistor channels loaded.
+    3. Actual result:
+- [ ]  T2.2: GPIO readback at ambient
+    1. Test: Read back all 8 GPIO results and convert to °C with the NTC curve.
+    2. Expected result: All 8 channels return data, and converted temperatures agree with ambient.
+    3. Actual result:
+- [ ]  T2.3: Thermistor channel mapping
+    1. Test: Apply a heat gun to one channel at a time. Repeat for at least 3 channels.
+    2. Expected result: Only the heated channel moves, and the temperature reading rises (correct direction).
+    3. Actual result:
+- [ ]  T2.4: Combined poll cycle
+    1. Test: Poll VCELL and GPIO together at the intended speed.
+    2. Expected result: VCELL and GPIO data both come back in the same poll cycle at the intended speed.
+    3. Actual result:
+
+#### T3: Daisy Chain
+
+*Note: The EVM ships capacitive-coupled. This validates the chain protocol, not the transformer coupling the SMB will use.*
+
+- [ ]  T3.1: Wake
+    1. Test: Configure both boards per the Common Setup table, with a separate isolated supply per board. Send a WAKE ping at the base.
+    2. Expected result: Both devices reach ACTIVE.
+    3. Actual result:
+- [ ]  T3.2: Auto-addressing
+    1. Test: Run auto-addressing.
+    2. Expected result: STACK_DEV and TOP_STACK resolve correctly.
+    3. Actual result:
+- [ ]  T3.3: Stack and broadcast reads
+    1. Test: Issue a stack read and a broadcast read.
+    2. Expected result: Both return valid VCELL/GPIO data from both boards.
+    3. Actual result:
+- [ ]  T3.4: Re-enumeration repeatability
+    1. Test: Power-cycle and re-enumerate ×10.
+    2. Expected result: Wake, addressing, and reads succeed on all 10 cycles.
+    3. Actual result:
+- [ ]  T3.5: Position independence
+    1. Test: Swap the boards' physical positions and repeat T3.1–T3.3.
+    2. Expected result: The chain works with no per-position configuration needed.
+    3. Actual result:
+
+#### T4: Comms Timeout Shutdown
+
+- [ ]  T4.1: Timeout to shutdown
+    1. Test: Program the long comm timeout value and set the action to SHUTDOWN. Stop host traffic mid-poll and measure elapsed time to shutdown.
+    2. Expected result: Shutdown occurs at the programmed timeout, and supply current falls in the 10–40 µA range.
+    3. Actual result:
+- [ ]  T4.2: Stack device shutdown
+    1. Test: Repeat T4.1 with the daisy chain connected.
+    2. Expected result: The stack device shuts down too.
+    3. Actual result:
+- [ ]  T4.3: Balancing stops on shutdown
+    1. Test: Repeat T4.1 with channels actively balancing.
+    2. Expected result: Balancing stops when shutdown occurs.
+    3. Actual result:
+- [ ]  T4.4: No false trips
+    1. Test: Run normal polling at the intended cadence.
+    2. Expected result: The timeout never trips.
+    3. Actual result:
+
+#### T5: Balancing and Pause-Before-Measure
+
+- [ ]  T5.1: Selective channel enable
+    1. Test: Set CB_CELLn_CTRL timers on selected channels and issue BAL_GO.
+    2. Expected result: Only the commanded channels turn on (verified at the CB node).
+    3. Actual result:
+- [ ]  T5.2: Independent channel control
+    1. Test: Start and stop one channel while others are balancing.
+    2. Expected result: That channel toggles independently while the others keep balancing.
+    3. Actual result:
+- [ ]  T5.3: Pause
+    1. Test: Set BAL_CTRL2[CB_PAUSE] = 1.
+    2. Expected result: All CBFETs are off, BAL_STAT[CB_INPAUSE] = 1, and timers are frozen.
+    3. Actual result:
+- [ ]  T5.4: Resume
+    1. Test: Clear CB_PAUSE.
+    2. Expected result: Timers continue from the held value rather than restarting.
+    3. Actual result:
+- [ ]  T5.5: Pause/resume latency
+    1. Test: Measure command-to-FET-off and command-to-FET-on latency, including UART frame time.
+    2. Expected result: Both latencies are recorded (off: ____, on: ____).
+    3. Actual result:
+- [ ]  T5.6: Settle delay sweep
+    1. Test: Run the intended sequence (pause → settle delay → sample → read → resume). Sweep the settle delay and compare VCELL against a reference.
+    2. Expected result: Find the minimum settle delay that brings measurement error back to the balancing-off baseline (min delay: ____).
+    3. Actual result:
