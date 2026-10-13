@@ -42,6 +42,8 @@ typedef enum {
     NUM_CONTACTORS              /**< Total count helper */
 } contactor_num_t;
 
+extern const char* CONTACTOR_NAMES[NUM_CONTACTORS];
+
 /**
  * @brief Contactor hardware abstraction object.
  */
@@ -49,6 +51,7 @@ typedef struct {
     contactor_state_t state;        /**< Current commanded state */
     GpioPin_t sense_pin;            /**< Digital input for auxiliary feedback loop */
     GpioPin_t control_pin;          /**< Digital output to coil driver/relay */
+    bool callback_faulted;          /**< Whether or not this Contactor had a callback fault */
     
     /* RTOS Resources */
     TimerHandle_t senseTimer;       /**< Handle for non-blocking state verification */
@@ -80,6 +83,13 @@ contactor_state_t contactor_verify(contactor_num_t contactor_num);
  * @return contactor_state_t  Returns CONTACTOR_OK if command was accepted, CONTACTOR_ERR on hardware or RTOS failure.
  */
 contactor_state_t contactor_set(contactor_num_t contactor_num, contactor_state_t state, TickType_t wait_ms, fault_state_t emergency);
+
+/**
+ * @brief Checks if that Contactor had a contactor callback fault
+ * * @param contactor_num The specific contactor to check (e.g., Array, Motor, Precharge).
+ * * @return true if the Contactor had a callback fault, false if not
+ */
+bool contactor_get_faulted_status(contactor_num_t contactor_num);
 
 /** * @brief Determines if any ESTOPs are tripped
  * @return estop_status_t Returns ESTOP_OK if no estops are tripped, else it returns a code for each estop

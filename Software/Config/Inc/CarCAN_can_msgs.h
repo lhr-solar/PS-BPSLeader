@@ -1140,4 +1140,3 @@ typedef struct {
     uint16_t AccelPedal_Redundant_RawV;
     uint8_t FrameID_Pedals;
 } pedal_accel_rawv_t;
-

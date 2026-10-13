@@ -6,11 +6,12 @@ static StaticSemaphore_t contactorsMutexBuffer;
 
 bool contactor_is_initialized = false;
 
-static const char* CONTACTOR_NAMES[NUM_CONTACTORS] = {
-    "HV Positive Contactor",
-    "HV Negative Contactor",
+const char* CONTACTOR_NAMES[NUM_CONTACTORS] = {
+    "HV Plus Contactor",
+    "HV Minus Contactor",
     "Array Contactor",
-    "Array Precharge Contactor"};
+    "Array Precharge Contactor"
+};
 
 // array to hold the contactor structs
 static contactor_t contactors[NUM_CONTACTORS];
@@ -57,6 +58,7 @@ static void vContactorCallback(TimerHandle_t senseTimer)
 
     if (contactor->state != contactor_get(contactor_num))
     {
+        contactor->callback_faulted = true;
         set_faultBit(CONTACTOR_CALLBACK_FAULT);
     }
 }
@@ -79,6 +81,20 @@ estop_status_t contactor_estop_checker()
     else {
         return ESTOP_OK;
     }
+}
+
+bool contactor_get_faulted_status(contactor_num_t contactor_num)
+{
+    if (!contactor_is_initialized)
+        return false;
+    // check that contactor exists
+    if ((contactor_num < 0) || (contactor_num >= NUM_CONTACTORS))
+    {
+        return false;
+    }
+
+    contactor_t *contactor = &contactors[contactor_num];
+    return contactor->callback_faulted;
 }
 
 // sets contactor, updates state value, then starts timer to check expected state matches actual state.
@@ -193,6 +209,8 @@ void contactor_init()
         HAL_GPIO_Init(contactor->sense_pin.port, &GPIO_InitStruct);
 
         contactor->state = contactor_get(contactor_num);
+
+        contactor->callback_faulted = false;
 
         // making timers and putting them into contactor structs
         contactor->senseTimer = xTimerCreateStatic(

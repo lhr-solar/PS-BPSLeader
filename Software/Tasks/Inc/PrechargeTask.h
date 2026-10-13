@@ -6,9 +6,13 @@
 #include "ADC_Driver.h"
 #include "DebugPrintf.h"
 #include "BPS_Tasks.h"
+#include "CarCAN_can_msgs.h"
+#include "CANbus.h"
+#include "TPEE_Utils.h"
+
 
 // Fixed-point scaling for mV to V conversion
-#define RATIO_SCALE 1000
+#define mV_TO_V_SCALAR 1000
 
 // 900/1000 = 0.900, 800/1000 = 0.800
 // TODO: Test and increase hysteresis threshold closer to 90%

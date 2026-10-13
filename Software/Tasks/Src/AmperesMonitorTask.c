@@ -27,6 +27,10 @@ static bool recv_amp_data = false;
 // Global variable
 bps_pack_current_t AmperesData = { 0 };
 
+int32_t get_pack_current(void) {
+    return AmperesData.Main_Battery_Current;
+}
+
 static void vAmperesWatchdogCallback(TimerHandle_t amps_timer)
 {
 

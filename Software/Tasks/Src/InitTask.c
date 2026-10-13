@@ -45,7 +45,7 @@ StaticEventGroup_t xStateBits_buffer;
 void Task_Init()
 {
 
-    vTaskDelay(pdMS_TO_TICKS(STARTUP_DELAY_MS));
+    // vTaskDelay(pdMS_TO_TICKS(STARTUP_DELAY_MS));
 
     if (faultHandler_init() == 0)
     {
@@ -155,6 +155,16 @@ void Task_Init()
         &Task_Can_Status_Buffer        /* Buffer for static allocation. */
     );
 
+        xTaskCreateStatic(
+        Task_Precharge,             /* The function that implements the task. */
+        "Precharging Task",         /* Text name for the task. */
+        PRECHARGE_TASK_STACK_SIZE,  /* The size (in words) of the stack that should be created for the task. */
+        (void *)NULL,               /* Paramter passed into the task. */
+        TASK_PRECHARGE_PRIO,        /* Task Prioriy. */
+        Precharge_Task_Stack,       /* Stack array. */
+        &Precharge_Task_Buffer      /* Buffer for static allocation. */
+    );
+
     // xTaskCreateStatic(
     //     Task_PetWatchdog,                   /* The function that implements the task. */
     //     "PetWatchdog",                      /* Text name for the task. */
@@ -174,7 +184,6 @@ void Task_Init()
         portMAX_DELAY  // wait forever
     );
 
-    // IGNITION LOGIC GOES HERE
 
     // All tasks have checked in, ensure nothing faulted on startup before closing contactors
     if (is_fault_set(NUM_FAULTS) == false)

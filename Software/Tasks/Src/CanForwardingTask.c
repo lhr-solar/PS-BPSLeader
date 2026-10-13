@@ -10,22 +10,30 @@
 static StaticQueue_t canRxForwardQueueBuffer;
 static uint8_t canRxForwardQueueStorage[CAN_RX_FORWARD_QUEUE_SIZE * sizeof(can_rx_payload_t)];
 static QueueHandle_t canRxForwardQueue;
+
  
 void can_fd_rx_callback_hook(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs, can_rx_payload_t recv_payload)
 {
+
+    static volatile uint8_t amperes_msg_counter = 0; 
 
     BaseType_t higherPriorityTaskWoken = pdFALSE;
 
     if (hfdcan->Instance == BPS_CAN_CHANNEL)
     {
-        if (canRxForwardQueue != NULL)
-        {
-            xQueueSendCircularBufferFromISR(  
-                canRxForwardQueue,
-                &recv_payload,
-                &higherPriorityTaskWoken,
-                sizeof(can_rx_payload_t));
+        if (recv_payload.header.Identifier == CAN_ID_BPS_PACK_CURRENT) {
+            
+            if (canRxForwardQueue != NULL && amperes_msg_counter == 0)
+            {
+                xQueueSendCircularBufferFromISR(  
+                    canRxForwardQueue,
+                    &recv_payload,
+                    &higherPriorityTaskWoken,
+                    sizeof(can_rx_payload_t));
+            }
+            amperes_msg_counter = (amperes_msg_counter + 1) % 3;
         }
+          
     }
 
     portYIELD_FROM_ISR(higherPriorityTaskWoken);

@@ -36,10 +36,6 @@ can_status_t bps_can_send(uint32_t ID, uint8_t data[], uint32_t data_length, Tic
 
     if ((bps_can == NULL) || (!is_initialized)) return CAN_ERR;
 
-    // if (ID == CAN_ID_BPS_STATUS && data[0] == 0) {
-    //     printf("CAN STATUS PRINTED, CALLING TASK: %s\r\n", pcTaskGetName(NULL));
-    // }
-
     FDCAN_TxHeaderTypeDef tx_header;
     FDCAN_Init_TXHeader(&tx_header, ID, data_length);
 

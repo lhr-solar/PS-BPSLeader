@@ -17,6 +17,7 @@
 #define TASK_CONTACTOR_MONITOR_PRIO     tskIDLE_PRIORITY + 4
 #define TASK_FAN_CONTROLLER_PRIO        tskIDLE_PRIORITY + 3
 #define TASK_CAN_STATUS_PRIO            tskIDLE_PRIORITY + 4
+#define TASK_PRECHARGE_PRIO             tskIDLE_PRIORITY + 3
 
 #define TEST_TASK_PRIORITY              tskIDLE_PRIORITY + 3
 
@@ -65,7 +66,7 @@ extern StaticTask_t Task_Can_Status_Buffer;
 // Task Delays
 #define TEMP_MONITOR_TASK_DELAY_MS      290
 #define VOLT_MONITOR_TASK_DELAY_MS      290
-#define PRECHARGE_TASK_DELAY_MS         100
+#define PRECHARGE_TASK_DELAY_MS         200
 #define CONTACTOR_MONITOR_TASK_DELAY_MS 200
 #define AMPERES_MONITOR_TASK_DELAY_MS   90
 #define FAN_CONTROLLER_TASK_DELAY_MS    300
@@ -82,6 +83,7 @@ void Task_PetWatchdog();
 void Task_CanRxForward();
 void Task_Contactor_Monitor();
 void Task_Can_Status();
+void Task_Precharge();
 
 // access functions for 
 // returns the average temperature of all cells in the battery in mC
@@ -89,6 +91,15 @@ uint32_t get_avg_temp();
 
 // returns sum of all voltage tap measurements of pack, which is pack voltage
 uint32_t get_pack_voltage();
+
+// returns a specific module's voltage in mV, module number is 0 indexed
+uint32_t get_module_voltage(uint8_t module_num);
+
+// returns the pack current in mA, positive for charging, negative for discharging
+int32_t get_pack_current(void);
+
+// returns a specific module's temperature in mC, module number is 0 indexed
+uint32_t get_module_temperature(uint8_t module_num);
 
 // takes a segment number, returns TRUE if segment is OK (sending temperature information, no errors) else returns FALSE
 bool get_temp_segment_status(uint8_t segment_num);
@@ -98,6 +109,14 @@ bool get_volt_segment_status(uint8_t segment_num);
 
 // macros to find which module faulted (checks to see what bit in bitmap isn't set, returns its index. if all is good then it returns -1 ) 
 #define get_mod_fault_num(mod_bitmap) (((~(mod_bitmap)) != 0) ? __builtin_ctz(~(mod_bitmap)) : -1)
+
+// function to get the value of the faulted module (temperature or voltage)
+extern uint32_t mod_fault_value;
+
+static inline uint32_t get_mod_fault_value(void)
+{
+    return mod_fault_value;
+}
 
 /* ---- Watchdog Event Group ---- */
 void Init_WDogTask();
@@ -114,16 +133,23 @@ extern EventGroupHandle_t xWDogEventGroup_handle;
 // latching intereger to keep track of which module faulted. bit 5 is used to latch
 extern uint8_t mod_fault_num;
 
+extern uint32_t exposed_temperature_watchdog_bitmap;
+extern uint32_t exposed_volt_watchdog_bitmap;
+
 // bit that is set in mod fault bitmap to indicate a module has faulted
 #define MOD_FAULT_BITMAP_LATCH (1 << 5)
 
 // that sets mod fault only if it hasn't been previously set
-static inline void latch_mod_fault(uint8_t mod_fault_num_) {
+static inline void latch_mod_fault(uint8_t mod_fault_num_, uint32_t faulted_module_value) {
     // Sanity check: ensure the module number doesn't overflow into the latch bit
-    if (mod_fault_num_ > 31) return; 
+    if (mod_fault_num_ >= (NUM_BATTERY_MODULES)){
+         return; 
+    }
 
     // Suspend interrupts/scheduler to ensure atomicity
     taskENTER_CRITICAL(); 
+
+    mod_fault_value = faulted_module_value; // store the value of the faulted module (temperature or voltage)
     
     // Check if the latch bit is NOT set
     if ((mod_fault_num & MOD_FAULT_BITMAP_LATCH) == 0) {
@@ -134,7 +160,6 @@ static inline void latch_mod_fault(uint8_t mod_fault_num_) {
     // Resume interrupts/scheduler
     taskEXIT_CRITICAL(); 
 }
-
 
 // State bit event group to keep track of BPS states
 extern EventGroupHandle_t xStateBits;

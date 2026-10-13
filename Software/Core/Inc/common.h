@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "config.h"
+#include "drive_profile_config.h"
 
 #include "pindef.h"
 
