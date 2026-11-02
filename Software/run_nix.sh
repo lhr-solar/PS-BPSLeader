@@ -1,1 +1,0 @@
-nix develop ./Embedded-Sharepoint
