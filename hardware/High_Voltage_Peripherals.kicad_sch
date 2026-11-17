@@ -913,7 +913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cfd622c-d667-46aa-968a-9b177b70a863")
-		(property "Reference" "TP37"
+		(property "Reference" "TP9"
 			(at 72.39 32.8929 0)
 			(hide yes)
 			(show_name no)
@@ -975,7 +975,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP37")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -993,7 +993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97893ba9-3ac4-4624-947f-872c8bd8c50a")
-		(property "Reference" "TP36"
+		(property "Reference" "TP12"
 			(at 154.94 31.6229 0)
 			(hide yes)
 			(show_name no)
@@ -1055,7 +1055,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP36")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -1073,7 +1073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad80bd8e-d6bb-490e-bb02-4ec237f1c764")
-		(property "Reference" "TP38"
+		(property "Reference" "TP10"
 			(at 72.39 45.5929 0)
 			(hide yes)
 			(show_name no)
@@ -1135,7 +1135,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP38")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -1152,7 +1152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd58dbf5-6e87-42c0-88aa-56271b155b3a")
-		(property "Reference" "J?"
+		(property "Reference" "J13"
 			(at 160.147 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1230,7 +1230,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "J?")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -1248,7 +1248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f604c621-5b55-4542-829d-96785d681e94")
-		(property "Reference" "TP35"
+		(property "Reference" "TP11"
 			(at 154.8497 44.3229 0)
 			(hide yes)
 			(show_name no)
@@ -1310,7 +1310,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP35")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
