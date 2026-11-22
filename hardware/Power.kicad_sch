@@ -5,129 +5,6 @@
 	(uuid "0d0db9c3-3c16-4a88-a252-799b47cb0b49")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -482,6 +359,107 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lhrs_misc:Multimeter_TP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "[net name]"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Multimeter_TP_0_1"
+				(circle
+					(center 0 -1.778)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Multimeter_TP_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -976,28 +954,10 @@
 		(uuid "18d62657-0958-4b7c-b770-6034f28c4d7f")
 	)
 	(junction
-		(at 177.8 111.125)
+		(at 233.045 112.395)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20c9b852-56ec-4694-ad2c-c28a11c4fc77")
-	)
-	(junction
-		(at 220.345 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3329fab0-7ffe-4242-b605-46a4a156a57a")
-	)
-	(junction
-		(at 180.34 64.135)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35c49b0f-58e9-40f4-9544-6208ca9a4192")
-	)
-	(junction
-		(at 233.68 112.395)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f04afd9-fc1a-41b1-b7ef-d0051c04123b")
+		(uuid "5307bb7d-3b7b-4b1d-83f3-327cf43d4831")
 	)
 	(junction
 		(at 169.545 111.125)
@@ -1006,22 +966,22 @@
 		(uuid "5c6e9470-14fe-453c-a122-6e59d29fbf49")
 	)
 	(junction
-		(at 36.195 63.5)
+		(at 225.425 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f8f3ff9-7334-4070-afc0-b561c1f86e02")
+		(uuid "87a9fa20-1b24-410b-adae-1fa1028ce45b")
 	)
 	(junction
-		(at 179.705 121.92)
+		(at 178.435 64.135)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1278baa-b3e8-4c02-8956-c2ce9c845f6a")
+		(uuid "bfd85f1a-42fd-4172-a033-aec09c284c46")
 	)
 	(junction
-		(at 210.82 111.125)
+		(at 177.165 111.125)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf492682-3dbe-4700-a9f7-1076d7cb45e4")
+		(uuid "c721907b-e27d-4c84-9d16-9ce2e859a8f9")
 	)
 	(junction
 		(at 169.545 121.92)
@@ -1029,9 +989,21 @@
 		(color 0 0 0 0)
 		(uuid "d5903a8b-68c2-4d8d-b32e-72f5acc05492")
 	)
+	(junction
+		(at 34.925 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3c67c31-eddd-4834-bc8e-ec068b4c2f1e")
+	)
+	(junction
+		(at 177.165 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e0f4b3-8b2d-4e9e-bcdb-f8019cc1dea7")
+	)
 	(wire
 		(pts
-			(xy 205.74 111.125) (xy 210.82 111.125)
+			(xy 205.74 111.125) (xy 213.36 111.125)
 		)
 		(stroke
 			(width 0)
@@ -1071,16 +1043,6 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 111.125) (xy 177.8 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a47337a-645a-40d2-bd2f-55dda5f79fdd")
-	)
-	(wire
-		(pts
 			(xy 59.69 45.72) (xy 78.105 45.72)
 		)
 		(stroke
@@ -1111,13 +1073,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 121.92) (xy 186.69 121.92)
+			(xy 233.045 112.395) (xy 237.49 112.395)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39cb9b78-c0bc-425d-8405-65d1154199d8")
+		(uuid "2d4ff919-4ddd-4cff-8f0f-44c373cfa163")
 	)
 	(wire
 		(pts
@@ -1131,6 +1093,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.925 63.5) (xy 43.18 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48dc383d-1d8f-402f-b4a8-36779645aaeb")
+	)
+	(wire
+		(pts
 			(xy 215.265 67.31) (xy 212.725 67.31)
 		)
 		(stroke
@@ -1138,6 +1110,16 @@
 			(type default)
 		)
 		(uuid "4c7bdfd4-d45a-4bae-a117-e7383b76cb0e")
+	)
+	(wire
+		(pts
+			(xy 212.725 53.34) (xy 225.425 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb28372-b946-47e6-855e-3774b73c667c")
 	)
 	(wire
 		(pts
@@ -1161,6 +1143,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.165 121.92) (xy 186.69 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615e1d4f-bb38-4c2d-bcdc-44cc14913680")
+	)
+	(wire
+		(pts
 			(xy 37.465 112.395) (xy 37.465 115.57)
 		)
 		(stroke
@@ -1181,16 +1173,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 111.125) (xy 140.335 106.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71096fbd-5a32-4d03-a1f8-813033ed8593")
-	)
-	(wire
-		(pts
 			(xy 213.36 111.125) (xy 215.9 111.125)
 		)
 		(stroke
@@ -1198,16 +1180,6 @@
 			(type default)
 		)
 		(uuid "86de4a5e-5276-4583-87e8-b72d5a004d79")
-	)
-	(wire
-		(pts
-			(xy 210.82 111.125) (xy 213.36 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e1c116-3420-46d0-a610-664c588cb0d8")
 	)
 	(wire
 		(pts
@@ -1221,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 64.135) (xy 180.34 64.135)
+			(xy 177.165 64.135) (xy 178.435 64.135)
 		)
 		(stroke
 			(width 0)
@@ -1231,7 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 63.5) (xy 43.18 63.5)
+			(xy 33.655 63.5) (xy 34.925 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1261,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 111.125) (xy 142.875 111.125)
+			(xy 141.605 111.125) (xy 142.875 111.125)
 		)
 		(stroke
 			(width 0)
@@ -1291,43 +1263,33 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 63.5) (xy 36.195 63.5)
+			(xy 178.435 64.135) (xy 186.055 64.135)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c350db1a-095b-4038-9692-7f410e38155d")
+		(uuid "c172ed44-618c-41a4-88cd-598a3818158d")
 	)
 	(wire
 		(pts
-			(xy 180.34 64.135) (xy 186.055 64.135)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c790b514-baee-4181-a823-0495df91d2ab")
-	)
-	(wire
-		(pts
-			(xy 212.725 53.34) (xy 220.345 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c795732c-f567-41d6-b7dd-d49681831095")
-	)
-	(wire
-		(pts
-			(xy 169.545 121.92) (xy 179.705 121.92)
+			(xy 169.545 121.92) (xy 177.165 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7bdf93d-40cb-4685-a89e-84272fb442a1")
+	)
+	(wire
+		(pts
+			(xy 177.165 111.125) (xy 186.69 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c935ce8a-0bc1-4f06-b59f-6ad116e707ce")
 	)
 	(wire
 		(pts
@@ -1348,26 +1310,6 @@
 			(type default)
 		)
 		(uuid "d049d353-18ba-4057-be38-1717d17751e3")
-	)
-	(wire
-		(pts
-			(xy 220.345 53.34) (xy 242.57 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d28d7174-d71f-4146-a2b6-b5a21bc84eae")
-	)
-	(wire
-		(pts
-			(xy 233.68 112.395) (xy 237.49 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e5fa34-011f-43ad-b033-228b2a816cf9")
 	)
 	(wire
 		(pts
@@ -1411,6 +1353,16 @@
 	)
 	(wire
 		(pts
+			(xy 225.425 53.34) (xy 242.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09a3bc3-bfe2-4cff-a7f0-870a8b7d3002")
+	)
+	(wire
+		(pts
 			(xy 40.64 45.72) (xy 43.18 45.72)
 		)
 		(stroke
@@ -1431,7 +1383,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 112.395) (xy 233.68 112.395)
+			(xy 228.6 112.395) (xy 233.045 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 111.125) (xy 186.69 111.125)
+			(xy 169.545 111.125) (xy 177.165 111.125)
 		)
 		(stroke
 			(width 0)
@@ -1508,17 +1460,6 @@
 			(justify left bottom)
 		)
 		(uuid "142afa9b-1519-4454-99cd-65aeb8561dde")
-	)
-	(label "MUX_12V"
-		(at 242.57 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right bottom)
-		)
-		(uuid "394d1228-fac1-4656-be69-c00bcf346e60")
 	)
 	(label "PDU_12V"
 		(at 73.66 45.72 180)
@@ -1575,14 +1516,25 @@
 	)
 	(hierarchical_label "BPSL_12V"
 		(shape output)
-		(at 140.335 106.045 90)
+		(at 141.605 111.125 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "240ba4a2-0a62-4219-baea-1c5817566675")
+	)
+	(hierarchical_label "BPSL_12V"
+		(shape output)
+		(at 242.57 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "240ba4a2-0a62-4219-baea-1c5817566675")
+		(uuid "46a85aa3-5b27-4c7e-ae27-57f96c093467")
 	)
 	(hierarchical_label "BPSL_3V3"
 		(shape output)
@@ -1843,6 +1795,84 @@
 		)
 	)
 	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 78.105 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b0095e8-b99d-4f36-8fb8-d63d65478002")
+		(property "Reference" "TP2"
+			(at 80.01 41.1479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PDU"
+			(at 77.47 38.6079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 78.105 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.105 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b85b5511-e220-4618-97cc-80f93ff8d90d")
+		)
+		(instances
+			(project "PS-BPSLeader"
+				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 37.465 118.11 0)
 		(unit 1)
@@ -1865,7 +1895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.3k"
 			(at 39.37 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1969,20 +1999,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 36.195 63.5 0)
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 233.045 107.315 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "1b4b9b13-781a-49b6-a12d-f851710d7a15")
-		(property "Reference" "TP1"
-			(at 38.1 58.9279 0)
-			(hide yes)
+		(dnp no)
+		(uuid "1587c7c1-fb55-4cd2-abcc-2a9bc127d198")
+		(property "Reference" "TP8"
+			(at 234.95 107.8229 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1992,8 +2020,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 38.1 60.1979 0)
+		(property "Value" "3V3"
+			(at 234.95 110.3629 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2004,7 +2032,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 41.275 63.5 0)
+			(at 233.045 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2015,7 +2043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.275 63.5 0)
+			(at 233.045 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,87 +2053,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 36.195 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "890dac30-efaf-4e52-9230-b93fe74c6315")
-		)
-		(instances
-			(project "PS-BPSLeader"
-				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 210.82 111.125 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "1b8fca95-b257-47f6-a16a-6d65b16d1a85")
-		(property "Reference" "TP6"
-			(at 208.915 115.6971 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 214.63 118.2371 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 205.74 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 210.82 111.125 0)
+		(property "Description" ""
+			(at 233.045 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2116,12 +2065,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "885266fb-bd72-4cd0-b4b1-b363330e1edb")
+			(uuid "4ded2be4-f6fc-4f5c-a72a-1a68367939f7")
 		)
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP6")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -2255,7 +2204,7 @@
 		(fields_autoplaced yes)
 		(uuid "408e957e-dd7b-4875-9f80-8a7d1f725994")
 		(property "Reference" "R4"
-			(at 55.245 116.8399 0)
+			(at 55.88 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2265,8 +2214,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 55.245 119.3799 0)
+		(property "Value" "1.5k"
+			(at 55.88 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2448,19 +2397,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 179.705 121.92 0)
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 225.425 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(uuid "5ee23913-cc92-4349-8d20-52124493b42c")
-		(property "Reference" "TP4"
-			(at 181.61 117.3479 0)
-			(hide yes)
+		(dnp no)
+		(uuid "43cdd545-cca6-4eed-9f4c-c95cbe15882b")
+		(property "Reference" "TP7"
+			(at 227.33 48.7679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2470,8 +2418,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V_USB"
-			(at 175.895 116.7129 0)
+		(property "Value" "12V_MUX"
+			(at 224.79 46.2279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2482,7 +2430,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 184.785 121.92 0)
+			(at 225.425 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +2441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.785 121.92 0)
+			(at 225.425 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,8 +2451,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 179.705 121.92 0)
+		(property "Description" ""
+			(at 225.425 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,12 +2463,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7206ea98-3480-42c2-91ab-70b40bdb3228")
+			(uuid "8b92aeab-d151-488d-8ba8-94116181f78b")
 		)
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP4")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -2650,99 +2598,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 233.68 112.395 0)
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 178.435 59.055 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(uuid "7d9b8ea3-f3dc-4223-80fb-6da210735bc6")
-		(property "Reference" "TP8"
-			(at 235.585 107.8229 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 229.87 105.2829 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 238.76 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 233.68 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b025084-45f9-4776-b5b2-720fc863d3b0")
-		)
-		(instances
-			(project "PS-BPSLeader"
-				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 180.34 64.135 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7e8d232e-9d58-4485-9af4-6622395d3d33")
+		(dnp no)
+		(uuid "60db5860-d11d-4701-a0c2-9f8e2080d201")
 		(property "Reference" "TP5"
-			(at 182.245 59.5629 0)
-			(hide yes)
+			(at 180.34 59.5629 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2753,7 +2620,7 @@
 			)
 		)
 		(property "Value" "ELCON"
-			(at 182.245 62.1029 0)
+			(at 175.26 57.0229 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2764,7 +2631,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 185.42 64.135 0)
+			(at 178.435 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +2642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 64.135 0)
+			(at 178.435 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2785,8 +2652,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 180.34 64.135 0)
+		(property "Description" ""
+			(at 178.435 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,12 +2664,246 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e77bcc8-8296-40a7-a724-6d4dfec59ce5")
+			(uuid "2fbb41ba-752c-4a35-b84f-ac03aa0a9ac8")
 		)
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 177.165 106.045 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b45445b-57cf-48af-a13b-53ec864f8a64")
+		(property "Reference" "TP3"
+			(at 179.07 106.5529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_BUCK"
+			(at 176.53 104.0129 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 177.165 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.165 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.165 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da18f4e8-4a5c-4841-890e-693c98c6075d")
+		)
+		(instances
+			(project "PS-BPSLeader"
+				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 177.165 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e806015-2f7a-44bb-b0e3-5a5f6c185396")
+		(property "Reference" "TP4"
+			(at 179.07 117.3479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_USB"
+			(at 177.8 119.8879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 177.165 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.165 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.165 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3a9228e-2b65-4198-a86e-9dd774f34b23")
+		)
+		(instances
+			(project "PS-BPSLeader"
+				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 34.925 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c46e996-e13a-47ef-b61c-5916aaa033bb")
+		(property "Reference" "TP1"
+			(at 36.83 58.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 56.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 34.925 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.925 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.925 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d50fed4-81a5-4214-828d-879443fc287c")
+		)
+		(instances
+			(project "PS-BPSLeader"
+				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2918,6 +3019,84 @@
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 213.36 116.205 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93f2f75c-4ab7-4d09-8d4c-1eb95a97b670")
+		(property "Reference" "TP6"
+			(at 211.455 113.7921 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 210.82 116.3321 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 213.36 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95a3db8b-332e-4103-9b0b-36e29a80d083")
+		)
+		(instances
+			(project "PS-BPSLeader"
+				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3132,165 +3311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 111.125 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "ca101ee4-d318-4790-8074-f0841ec27592")
-		(property "Reference" "TP3"
-			(at 179.705 106.5529 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V_BUCK"
-			(at 173.99 104.0129 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 182.88 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 177.8 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b69c16b-efa2-4f74-a7ce-02f7f26f2d5c")
-		)
-		(instances
-			(project "PS-BPSLeader"
-				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 220.345 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "d09c9311-c439-4ad9-9e6c-f01c2ea5456f")
-		(property "Reference" "TP7"
-			(at 222.25 48.7679 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V"
-			(at 222.25 51.3079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 225.425 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 225.425 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.345 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f931def-61d8-4273-828a-da2cc4f82ea0")
-		)
-		(instances
-			(project "PS-BPSLeader"
-				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 70.485 118.11 0)
 		(unit 1)
@@ -3411,86 +3431,6 @@
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 78.105 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "f0ab3cc0-d406-49c3-b55a-b3e9a42d8547")
-		(property "Reference" "TP2"
-			(at 80.645 41.1479 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PDU"
-			(at 80.645 43.6879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 83.185 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.185 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 78.105 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc74bea7-6568-4206-af06-4909806ca97f")
-		)
-		(instances
-			(project "PS-BPSLeader"
-				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3829,8 +3769,8 @@
 		)
 	)
 	(sheet
-		(at 43.18 41.91)
-		(size 16.51 27.305)
+		(at 43.18 40.64)
+		(size 16.51 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3843,9 +3783,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "809e2845-19f2-4000-97b2-9d58cc5520c6")
+		(uuid "ff8acd37-b409-4599-a452-9f08846bc1ab")
 		(property "Sheetname" "PowerProtection"
-			(at 43.18 41.1984 0)
+			(at 43.18 39.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3856,7 +3796,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerProtection.kicad_sch"
-			(at 43.18 69.7996 0)
+			(at 43.18 70.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3868,7 +3808,7 @@
 		)
 		(pin "GND" input
 			(at 43.18 63.5 180)
-			(uuid "c8e3127a-0101-4bb2-b2ff-31f7c66a5dcb")
+			(uuid "708f6895-b3b3-40ba-ae7a-60dbe2405dc1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3818,7 @@
 		)
 		(pin "Vin" input
 			(at 43.18 45.72 180)
-			(uuid "89217e03-7cf6-41ff-ba7c-e0737e898e7f")
+			(uuid "e05f9b0a-2590-4611-8776-c04ce0419abb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3828,7 @@
 		)
 		(pin "Vout" output
 			(at 59.69 45.72 0)
-			(uuid "409215c0-d98b-4f93-ba05-9150e2741516")
+			(uuid "515fb93f-8195-4ba2-92cf-474f2ed35af8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3839,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(page "20")
+					(page "11")
 				)
 			)
 		)
