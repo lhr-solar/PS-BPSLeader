@@ -311,29 +311,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 21.082 0)
+			(property "Reference" "U5"
+				(at 0 25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "TPS2121RUXR"
-				(at -7.62 -20.32 0)
+				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LHRS_Power:IC_TPS2121RUXR"
+			(property "Footprint" "LHRS_ICs:TPS2121RUXR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -499,6 +497,17 @@
 					)
 				)
 			)
+			(property "P/N" "TPS2121RUXR "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "TPS2121RUXR_0_0"
 				(rectangle
 					(start -7.62 -17.78)
@@ -529,25 +538,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 5.08)
@@ -559,25 +549,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(hide yes)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -675,25 +646,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 15.24 0)
-					(length 5.08)
-					(hide yes)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 12.7 15.24 180)
 					(length 5.08)
@@ -706,25 +658,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8_1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3563,9 +3496,6 @@
 		(pin "6"
 			(uuid "b0f7dad2-0844-4741-92c6-c3b10112ff7f")
 		)
-		(pin "7_1"
-			(uuid "e8d48c24-7a22-43aa-a1d9-3d1b64887f91")
-		)
 		(pin "11"
 			(uuid "80368f1d-fea9-441f-9b5f-f96db3a0f3fb")
 		)
@@ -3581,14 +3511,8 @@
 		(pin "5"
 			(uuid "9b4eabed-f28a-40ce-8a72-55152c94501f")
 		)
-		(pin "2_1"
-			(uuid "9827d0b8-8d22-4b8c-9ec9-aaf4f7dc52ef")
-		)
 		(pin "12"
 			(uuid "a7d70532-1f6e-49fc-bce6-1998011c2ca0")
-		)
-		(pin "1_1"
-			(uuid "934bb6fa-65de-4441-96db-ab25719bee95")
 		)
 		(pin "4"
 			(uuid "a2d67bc3-e5c3-499e-b933-484d80654643")
@@ -3601,9 +3525,6 @@
 		)
 		(pin "7"
 			(uuid "f7fc457f-39d3-4225-bca2-be9fa5561660")
-		)
-		(pin "8_1"
-			(uuid "65212810-706a-4883-be53-63f83e63d44a")
 		)
 		(instances
 			(project "PS-BPSLeader"

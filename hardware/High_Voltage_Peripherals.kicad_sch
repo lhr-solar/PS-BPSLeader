@@ -5,129 +5,6 @@
 	(uuid "d5296cb3-5387-495a-b7c8-1477327b5335")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -315,30 +192,141 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lhrs_misc:Multimeter_TP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "[net name]"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Multimeter_TP_0_1"
+				(circle
+					(center 0 -1.778)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Multimeter_TP_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 74.93 37.465)
+		(at 158.115 48.895)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95535ef1-6157-44a9-b31f-9462c2cc0c8e")
+		(uuid "069bcbae-dbdd-4a8d-9a4c-adfcd90021cd")
 	)
 	(junction
-		(at 157.3897 48.895)
+		(at 74.295 37.465)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f49b200-9e7f-40e2-8669-3a85ba8620f0")
+		(uuid "3d090941-6dd6-444d-b59c-1cc3117bb028")
 	)
 	(junction
 		(at 157.48 36.195)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf010fa0-c056-4b69-aaa1-d119bb1025a5")
+		(uuid "5ceb9fdb-da9d-441d-afdd-3a25b7be16a3")
 	)
 	(junction
-		(at 74.93 50.165)
+		(at 74.295 50.165)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fce001e5-9e5b-4510-952d-dd2e06ec33ff")
+		(uuid "b42084bc-f4d4-494f-8c49-a9bf469c316c")
+	)
+	(wire
+		(pts
+			(xy 74.295 37.465) (xy 78.74 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ad247b-3529-4623-aef5-c49e860764d8")
 	)
 	(wire
 		(pts
@@ -392,7 +380,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 50.165) (xy 69.85 50.165)
+			(xy 69.85 50.165) (xy 74.295 50.165)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +400,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 48.895) (xy 157.3897 48.895)
+			(xy 152.4 48.895) (xy 158.115 48.895)
 		)
 		(stroke
 			(width 0)
@@ -422,13 +410,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 36.195) (xy 157.48 36.195)
+			(xy 74.295 50.165) (xy 78.74 50.165)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49e89b14-f647-481a-adde-ecc4998dfdfc")
+		(uuid "57e6650c-6499-4450-ba69-9a9162cde9aa")
 	)
 	(wire
 		(pts
@@ -452,7 +440,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 36.195) (xy 161.29 36.195)
+			(xy 152.4 36.195) (xy 157.48 36.195)
 		)
 		(stroke
 			(width 0)
@@ -479,6 +467,16 @@
 			(type default)
 		)
 		(uuid "90eba11d-0cd1-45fb-baad-74171374384a")
+	)
+	(wire
+		(pts
+			(xy 158.115 48.895) (xy 161.29 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912c58b1-56be-4efb-83f2-587da4ab51cb")
 	)
 	(wire
 		(pts
@@ -512,16 +510,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.3897 48.895) (xy 152.4 48.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac1a0383-a225-45ee-b23c-8bd3aa3cfead")
-	)
-	(wire
-		(pts
 			(xy 135.89 106.68) (xy 153.035 106.68)
 		)
 		(stroke
@@ -529,16 +517,6 @@
 			(type default)
 		)
 		(uuid "acacda82-60ec-49a5-b3bc-f51bba452aeb")
-	)
-	(wire
-		(pts
-			(xy 78.74 50.165) (xy 74.93 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad3c7137-2a5b-41ae-b1d7-c2aa33279899")
 	)
 	(wire
 		(pts
@@ -552,7 +530,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 37.465) (xy 74.93 37.465)
+			(xy 157.48 36.195) (xy 161.29 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a82acc-e162-428d-b4ba-7db48eb675fc")
+	)
+	(wire
+		(pts
+			(xy 69.85 37.465) (xy 74.295 37.465)
 		)
 		(stroke
 			(width 0)
@@ -579,16 +567,6 @@
 			(type default)
 		)
 		(uuid "e7815812-2c69-4b8c-b2ea-20ec88e43189")
-	)
-	(wire
-		(pts
-			(xy 74.93 37.465) (xy 69.85 37.465)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e53357-3675-49b9-8d68-6508a6b818c9")
 	)
 	(wire
 		(pts
@@ -902,9 +880,8 @@
 		(uuid "f9ff0250-f18a-47d1-b42d-6cf2336df060")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 74.93 37.465 0)
-		(mirror y)
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 157.48 31.115 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -912,9 +889,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0cfd622c-d667-46aa-968a-9b177b70a863")
-		(property "Reference" "TP9"
-			(at 72.39 32.8929 0)
+		(uuid "338894b0-73fc-4f99-ac23-3b00f6a2d1c1")
+		(property "Reference" "TP11"
+			(at 160.02 31.6229 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -925,8 +902,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor+ ADC"
-			(at 86.106 31.369 0)
+		(property "Value" "HV+"
+			(at 155.575 30.3529 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -936,8 +913,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 69.85 37.465 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 157.48 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -948,7 +925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 37.465 0)
+			(at 157.48 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -958,8 +935,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 74.93 37.465 0)
+		(property "Description" ""
+			(at 157.48 31.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -970,7 +947,86 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba1af77e-7d3f-4fc8-b84c-ae2d8abc7cf0")
+			(uuid "f389cb0b-6a8b-42fa-8bf5-62ea574f0914")
+		)
+		(instances
+			(project "PS-BPSLeader"
+				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 74.295 32.385 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43679d26-f15b-4afc-a343-68f8aec864d9")
+		(property "Reference" "TP9"
+			(at 76.835 32.8929 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor+"
+			(at 76.835 35.4329 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 74.295 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.295 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.295 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27190d88-a57f-434a-a268-5241a9dcf771")
 		)
 		(instances
 			(project "PS-BPSLeader"
@@ -982,9 +1038,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 157.48 36.195 0)
-		(mirror y)
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 158.115 43.815 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -992,9 +1047,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "97893ba9-3ac4-4624-947f-872c8bd8c50a")
+		(uuid "b88f4109-a75f-47a1-9961-82e30a4f0142")
 		(property "Reference" "TP12"
-			(at 154.94 31.6229 0)
+			(at 160.02 44.3229 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1005,8 +1060,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HV+ ADC"
-			(at 162.56 30.353 0)
+		(property "Value" "HV-"
+			(at 154.94 43.0529 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1016,8 +1071,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 152.4 36.195 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 158.115 43.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1028,7 +1083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 36.195 0)
+			(at 158.115 43.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1038,8 +1093,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 157.48 36.195 0)
+		(property "Description" ""
+			(at 158.115 43.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1050,92 +1105,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ca654ad-906e-4324-a8d7-34adb5c2510c")
+			(uuid "072388c0-4003-403d-af47-77f7926a6eda")
 		)
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 74.93 50.165 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad80bd8e-d6bb-490e-bb02-4ec237f1c764")
-		(property "Reference" "TP10"
-			(at 72.39 45.5929 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor- ADC"
-			(at 86.106 44.069 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 69.85 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b34351ed-1ea6-4846-8842-347760c0e9e2")
-		)
-		(instances
-			(project "PS-BPSLeader"
-				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -1152,7 +1127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd58dbf5-6e87-42c0-88aa-56271b155b3a")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 160.147 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1230,16 +1205,15 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 157.3897 48.895 0)
-		(mirror y)
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 74.295 45.085 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1247,10 +1221,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f604c621-5b55-4542-829d-96785d681e94")
-		(property "Reference" "TP11"
-			(at 154.8497 44.3229 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "d8500f57-fad0-43b7-b5b7-bc1ccbd61b60")
+		(property "Reference" "TP10"
+			(at 76.2 45.5929 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1260,8 +1234,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HV- ADC"
-			(at 162.4697 43.053 0)
+		(property "Value" "Motor-"
+			(at 76.2 48.1329 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1271,8 +1245,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 152.3097 48.895 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 74.295 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1283,7 +1257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.3097 48.895 0)
+			(at 74.295 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1293,8 +1267,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 157.3897 48.895 0)
+		(property "Description" ""
+			(at 74.295 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1305,12 +1279,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a36e81d-cd51-4181-8a58-b5434d4992f9")
+			(uuid "c9aacd22-b34b-475d-96ef-4f7e897f6e8e")
 		)
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP11")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
