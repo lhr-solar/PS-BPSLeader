@@ -954,10 +954,10 @@
 		(uuid "18d62657-0958-4b7c-b770-6034f28c4d7f")
 	)
 	(junction
-		(at 233.045 112.395)
+		(at 39.37 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5307bb7d-3b7b-4b1d-83f3-327cf43d4831")
+		(uuid "2c6c158a-8a60-4af5-ab36-eec16f09f9b4")
 	)
 	(junction
 		(at 169.545 111.125)
@@ -1073,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 112.395) (xy 237.49 112.395)
+			(xy 228.6 112.395) (xy 237.49 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.925 63.5) (xy 43.18 63.5)
+			(xy 34.925 63.5) (xy 39.37 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1160,6 +1160,16 @@
 			(type default)
 		)
 		(uuid "658f89f7-8b9a-4572-ba4e-0f08ed72f26b")
+	)
+	(wire
+		(pts
+			(xy 39.37 63.5) (xy 43.18 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676daa90-d717-4e94-8d49-f8919be12997")
 	)
 	(wire
 		(pts
@@ -1380,16 +1390,6 @@
 			(type default)
 		)
 		(uuid "e9519436-2ee0-4497-a1ca-c8ce01466066")
-	)
-	(wire
-		(pts
-			(xy 228.6 112.395) (xy 233.045 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef881e41-fd5e-4635-ba00-15a5ff946e00")
 	)
 	(wire
 		(pts
@@ -1805,7 +1805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b0095e8-b99d-4f36-8fb8-d63d65478002")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 80.01 41.1479 0)
 			(hide yes)
 			(show_name no)
@@ -1867,7 +1867,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1994,85 +1994,6 @@
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lhrs_misc:Multimeter_TP")
-		(at 233.045 107.315 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1587c7c1-fb55-4cd2-abcc-2a9bc127d198")
-		(property "Reference" "TP8"
-			(at 234.95 107.8229 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 232.41 106.5529 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 233.045 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.045 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.045 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ded2be4-f6fc-4f5c-a72a-1a68367939f7")
-		)
-		(instances
-			(project "PS-BPSLeader"
-				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -2409,7 +2330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43cdd545-cca6-4eed-9f4c-c95cbe15882b")
-		(property "Reference" "TP7"
+		(property "Reference" "TP2"
 			(at 227.33 48.7679 0)
 			(hide yes)
 			(show_name no)
@@ -2471,7 +2392,86 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP7")
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Multimeter_TP")
+		(at 39.37 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e067740-b68e-403b-8b5d-d4d8e5543c08")
+		(property "Reference" "TP4"
+			(at 41.275 58.9279 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.735 56.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 39.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99ef9b17-ea42-494e-99d0-4ce4c235d6fa")
+		)
+		(instances
+			(project "PS-BPSLeader"
+				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b45445b-57cf-48af-a13b-53ec864f8a64")
-		(property "Reference" "TP3"
+		(property "Reference" "TP6"
 			(at 179.07 106.5529 0)
 			(hide yes)
 			(show_name no)
@@ -2752,7 +2752,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP3")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e806015-2f7a-44bb-b0e3-5a5f6c185396")
-		(property "Reference" "TP4"
+		(property "Reference" "TP8"
 			(at 179.07 117.3479 0)
 			(hide yes)
 			(show_name no)
@@ -2831,7 +2831,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP4")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -2848,7 +2848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c46e996-e13a-47ef-b61c-5916aaa033bb")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 36.83 58.9279 0)
 			(hide yes)
 			(show_name no)
@@ -2910,7 +2910,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93f2f75c-4ab7-4d09-8d4c-1eb95a97b670")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 211.455 113.7921 0)
 			(hide yes)
 			(show_name no)
@@ -3104,7 +3104,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/69244dac-f10b-499c-a2b2-3cdf1370aa1f"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)

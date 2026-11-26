@@ -890,7 +890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "338894b0-73fc-4f99-ac23-3b00f6a2d1c1")
-		(property "Reference" "TP11"
+		(property "Reference" "TP9"
 			(at 160.02 31.6229 0)
 			(hide yes)
 			(show_name no)
@@ -952,7 +952,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP11")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -970,7 +970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43679d26-f15b-4afc-a343-68f8aec864d9")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 76.835 32.8929 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1031,7 +1031,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -1048,7 +1048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b88f4109-a75f-47a1-9961-82e30a4f0142")
-		(property "Reference" "TP12"
+		(property "Reference" "TP11"
 			(at 160.02 44.3229 0)
 			(hide yes)
 			(show_name no)
@@ -1110,7 +1110,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP12")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -1223,7 +1223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8500f57-fad0-43b7-b5b7-bc1ccbd61b60")
-		(property "Reference" "TP10"
+		(property "Reference" "TP12"
 			(at 76.2 45.5929 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1284,7 +1284,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/5da56964-fa04-4fec-bdfe-c6acfeda5c9a/6d3ad40f-d44b-42e3-8655-42f54ce44d73"
-					(reference "TP10")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
