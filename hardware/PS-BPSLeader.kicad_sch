@@ -4859,6 +4859,16 @@
 		)
 		(uuid "3dda8905-e321-460f-a1c6-a89d88c8340b")
 	)
+	(label "HV+N"
+		(at 56.515 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40afad47-143c-48c6-93fd-e26e17c75b97")
+	)
 	(label "CAR_CAN_L"
 		(at 187.325 91.44 180)
 		(effects
@@ -5070,6 +5080,16 @@
 		(uuid "73d53964-bd5f-4267-84e7-4139f9e72153")
 	)
 	(label "HV+P"
+		(at 26.035 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "771c4cd6-2137-4893-98a6-93113d3f2567")
+	)
+	(label "HV+P"
 		(at 109.22 142.24 0)
 		(effects
 			(font
@@ -5199,6 +5219,16 @@
 		)
 		(uuid "9092f358-cc8b-4794-8103-5c1236ee8e08")
 	)
+	(label "HV-N"
+		(at 56.515 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d776505-53a7-4696-adc0-252a13aa9e7c")
+	)
 	(label "SHUNT-"
 		(at 56.515 186.69 180)
 		(effects
@@ -5259,16 +5289,6 @@
 		)
 		(uuid "a65b40c4-03e0-4997-ab9b-ff353e433724")
 	)
-	(label "HV-P"
-		(at 26.035 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a74afb4e-e70f-4639-9e2a-4b547c5ba5cf")
-	)
 	(label "Motor_Relay"
 		(at 63.5 151.765 180)
 		(effects
@@ -5278,16 +5298,6 @@
 			(justify right bottom)
 		)
 		(uuid "abdfc72e-7b4c-42cc-936c-be58b998b72c")
-	)
-	(label "HV+N"
-		(at 56.515 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ace82956-bc29-47ea-a115-34bf84ee89bf")
 	)
 	(label "BMS_NFAULT"
 		(at 232.41 103.505 0)
@@ -5328,16 +5338,6 @@
 			(justify left bottom)
 		)
 		(uuid "ae622560-62ad-49fd-8d99-18b665613d12")
-	)
-	(label "HV-N"
-		(at 56.515 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4a97e22-1dbe-4f0d-8b29-85bc79ce14b5")
 	)
 	(label "HV-P"
 		(at 109.22 147.32 0)
@@ -5438,16 +5438,6 @@
 			(justify left bottom)
 		)
 		(uuid "d14a6be9-3719-406a-acb1-985537b911d4")
-	)
-	(label "HV+P"
-		(at 26.035 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3dc95a2-0665-4428-9585-14e7d08087bf")
 	)
 	(label "ESTOP_3_SENSE"
 		(at 187.96 160.655 180)
@@ -5578,6 +5568,16 @@
 			(justify left bottom)
 		)
 		(uuid "f1f7b7b3-bc20-4a40-a1b2-204b93f89a54")
+	)
+	(label "HV-P"
+		(at 26.035 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f36e5051-404c-4f28-8e8e-ce7292009e8e")
 	)
 	(label "USB_VBUS_IN"
 		(at 176.53 33.02 0)
