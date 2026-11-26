@@ -1175,8 +1175,8 @@
 		(uuid "0442f230-41c5-488e-94f9-cb0bbf574b9f")
 	)
 	(rectangle
-		(start 86.106 115.57)
-		(end 106.172 121.92)
+		(start 17.78 78.74)
+		(end 37.592 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -1188,7 +1188,7 @@
 	)
 	(rectangle
 		(start 106.172 78.74)
-		(end 193.04 121.8932)
+		(end 193.04 137.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -1211,20 +1211,8 @@
 		(uuid "2250c0c7-fadd-4f4e-a8f4-1b8476634cd0")
 	)
 	(rectangle
-		(start 172.212 72.39)
-		(end 193.04 78.74)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "29af7338-f0b3-4cdd-812b-6c7bb6f477d9")
-	)
-	(rectangle
 		(start 17.78 78.74)
-		(end 106.172 121.92)
+		(end 106.172 146.685)
 		(stroke
 			(width 0)
 			(type default)
@@ -1235,8 +1223,8 @@
 		(uuid "85444d87-24a1-49a7-b8de-dfade362bf4f")
 	)
 	(rectangle
-		(start 167.64 116.84)
-		(end 193.04 121.92)
+		(start 106.045 78.74)
+		(end 131.445 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -1292,7 +1280,7 @@
 	)
 	(text "Over-Voltage Flybacks"
 		(exclude_from_sim no)
-		(at 180.34 119.38 0)
+		(at 118.745 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1320,16 +1308,6 @@
 		)
 		(uuid "878c0570-d90e-4bb6-8a90-d7114098fc81")
 	)
-	(text "Fan Controller IC"
-		(exclude_from_sim no)
-		(at 182.88 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8e434488-b620-4d00-905c-a8a250e26917")
-	)
 	(text "Fig 1-1"
 		(exclude_from_sim no)
 		(at 236.982 55.626 0)
@@ -1340,9 +1318,9 @@
 		)
 		(uuid "b27d84b8-e48d-43d4-8177-0b23f1a839ca")
 	)
-	(text "How many fans?"
+	(text "How many fans? 2\n"
 		(exclude_from_sim no)
-		(at 84.836 145.288 0)
+		(at 61.976 137.033 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1353,7 +1331,7 @@
 	)
 	(text "Fan Connectors"
 		(exclude_from_sim no)
-		(at 95.758 119.126 0)
+		(at 27.178 82.296 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1398,28 +1376,28 @@
 		(uuid "f26f97a6-9e10-48e8-8214-f1474071f175")
 	)
 	(no_connect
-		(at 143.51 57.15)
-		(uuid "0336c453-d4b9-437d-ab55-03244a621817")
-	)
-	(no_connect
-		(at 143.51 46.99)
-		(uuid "46c24b5d-b7bf-482f-b0c0-478973931f1e")
-	)
-	(no_connect
-		(at 143.51 44.45)
-		(uuid "49b71207-5720-430b-82be-1af216ac87c8")
-	)
-	(no_connect
 		(at 143.51 41.91)
 		(uuid "80871749-0bbe-46e9-b3a4-6f11879a45b5")
 	)
 	(no_connect
-		(at 143.51 54.61)
-		(uuid "93eef667-c016-498d-ac09-8eb1b6d5d840")
-	)
-	(no_connect
 		(at 143.51 39.37)
 		(uuid "ae5a8c8f-b280-4037-848d-0859a4e32e5d")
+	)
+	(no_connect
+		(at 143.51 54.61)
+		(uuid "b6ac61a3-994f-4e26-a67b-ba05db43f32f")
+	)
+	(no_connect
+		(at 143.51 44.45)
+		(uuid "c8032e90-4d62-40b6-bffd-df1dff9764dd")
+	)
+	(no_connect
+		(at 143.51 46.99)
+		(uuid "e126626d-0bb2-4fc9-8008-8bea02fd290a")
+	)
+	(no_connect
+		(at 143.51 57.15)
+		(uuid "fa36c1a9-4ab3-4367-8d29-151c96191ef2")
 	)
 	(wire
 		(pts
@@ -1480,6 +1458,16 @@
 			(type default)
 		)
 		(uuid "0e412fac-1961-40e6-a6f0-a285f52d9e57")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.015) (xy 139.7 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f46c595-50c6-42d6-b7b4-2348501dd407")
 	)
 	(wire
 		(pts
@@ -1563,16 +1551,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 45.72) (xy 148.59 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c6fc11-be6d-4e76-a8d9-3b44b46ea79d")
-	)
-	(wire
-		(pts
 			(xy 25.4 111.76) (xy 25.4 106.68)
 		)
 		(stroke
@@ -1580,16 +1558,6 @@
 			(type default)
 		)
 		(uuid "2756bb99-caba-4a39-ae1a-7cd97808c686")
-	)
-	(wire
-		(pts
-			(xy 170.18 106.68) (xy 170.18 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2942d022-023a-4eb1-984e-3ed0922f29a6")
 	)
 	(wire
 		(pts
@@ -1643,16 +1611,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 49.53) (xy 143.51 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e47f6e-034c-40b1-a16f-6e239e041390")
-	)
-	(wire
-		(pts
 			(xy 25.4 101.6) (xy 40.64 101.6)
 		)
 		(stroke
@@ -1693,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 106.68) (xy 133.35 111.76)
+			(xy 139.065 96.52) (xy 139.065 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1661,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 133.35 99.06)
+			(xy 139.7 107.315) (xy 139.7 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b778c5b-0d3e-416c-bcf7-d6cee70f695c")
+	)
+	(wire
+		(pts
+			(xy 139.065 83.82) (xy 139.065 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1733,23 +1701,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 36.83) (xy 148.59 36.83)
+			(xy 143.51 36.83) (xy 147.955 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89b327a0-9b8c-4a30-8587-b2ed3cbf6fdf")
-	)
-	(wire
-		(pts
-			(xy 148.59 45.72) (xy 149.86 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a22d6c2-14e7-4f25-96f7-d2f79a6010cd")
 	)
 	(wire
 		(pts
@@ -1770,16 +1728,6 @@
 			(type default)
 		)
 		(uuid "93595351-c83a-4df8-9943-f0bef3b1d4a4")
-	)
-	(wire
-		(pts
-			(xy 170.18 93.98) (xy 170.18 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e28168c-6197-489d-b636-ba28bf4bd38c")
 	)
 	(wire
 		(pts
@@ -1880,16 +1828,6 @@
 			(type default)
 		)
 		(uuid "d0c3b246-7887-46ce-a62f-4bedfc692b20")
-	)
-	(wire
-		(pts
-			(xy 148.59 36.83) (xy 148.59 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d282b04f-a58c-4d57-8125-f8315fe62f31")
 	)
 	(wire
 		(pts
@@ -2361,16 +2299,6 @@
 		)
 		(uuid "b2fe0cb6-c11e-4572-b448-d2276297d5f9")
 	)
-	(label "CLK_PULLUP"
-		(at 162.56 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc872f19-24a6-4bf2-acc5-e7340f785eeb")
-	)
 	(label "FAN_2_PWM"
 		(at 67.31 104.14 0)
 		(effects
@@ -2404,7 +2332,7 @@
 	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 133.35 93.98 0)
+		(at 139.065 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2415,18 +2343,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 170.18 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12a8b318-e6f6-42ed-943a-fe4d93cdac26")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 148.59 40.64 0)
+		(at 147.955 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2448,17 +2365,6 @@
 	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 170.18 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4223cd9f-4e6f-4563-8560-f1ff694eba34")
-	)
-	(hierarchical_label "12V"
-		(shape input)
 		(at 76.2 88.9 0)
 		(effects
 			(font
@@ -2470,7 +2376,7 @@
 	)
 	(hierarchical_label "FAN_ALERT"
 		(shape output)
-		(at 149.86 45.72 0)
+		(at 143.51 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2523,6 +2429,17 @@
 		)
 		(uuid "a4b9bcc6-537d-4350-b021-00b185e3aa55")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 139.7 125.095 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a708029e-faee-4b27-b488-5dd0ec28180b")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 58.42 26.67 0)
@@ -2534,9 +2451,20 @@
 		)
 		(uuid "aa00f2d0-fe13-4d81-8f4d-c0dba01a39a9")
 	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 139.7 107.315 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abeeb78a-7c30-4202-b1df-05aa9c4458bd")
+	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 133.35 111.76 0)
+		(at 139.065 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2700,6 +2628,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:C3D25170H")
+		(at 139.7 116.205 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f538f29-096a-4026-8928-bffb7d54e6e8")
+		(property "Reference" "D36"
+			(at 142.24 113.665 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSSAF522-M3/H"
+			(at 141.986 116.967 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LHRS_Passives:SODFL5226X100N"
+			(at 135.255 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/VSSAF522-M3-H?qs=UkDUCjYnTB00gpgD%2Fb%2Fw%252BA%3D%3D"
+			(at 139.7 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufactuerer" "Vishay General Semiconductor "
+			(at 139.7 116.205 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "VSSAF522-M3/H"
+			(at 139.7 116.205 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6326606"
+			(at 142.24 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C6326606 "
+			(at 139.7 116.205 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6b75dc3-cb86-4ec4-97a8-fc21cfed3267")
+		)
+		(pin "2"
+			(uuid "ad1ddd03-4403-4d63-b9ec-99e0fbfb4b1d")
+		)
+		(instances
+			(project "PS-BPSLeader"
+				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 85.09 30.48 0)
 		(mirror y)
@@ -2711,7 +2764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "237996d5-118c-475c-9227-c26112274e3e")
-		(property "Reference" "R85"
+		(property "Reference" "R75"
 			(at 82.55 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +2872,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "R85")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -2836,7 +2889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "249415ec-a565-4373-867e-b4e8e60ae231")
-		(property "Reference" "C48"
+		(property "Reference" "C38"
 			(at 43.688 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2953,7 +3006,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "C48")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -2971,7 +3024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a5653e-1cdf-4c7c-9540-fb8227c5613f")
-		(property "Reference" "R83"
+		(property "Reference" "R77"
 			(at 60.96 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3079,7 +3132,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "R83")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -3087,7 +3140,7 @@
 	)
 	(symbol
 		(lib_id "Diode:C3D25170H")
-		(at 133.35 102.87 270)
+		(at 139.065 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3096,8 +3149,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b8fad4c-c86e-4553-a66e-44528c0df562")
-		(property "Reference" "D21"
-			(at 135.89 100.33 90)
+		(property "Reference" "D35"
+			(at 141.605 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3108,7 +3161,7 @@
 			)
 		)
 		(property "Value" "VSSAF522-M3/H"
-			(at 135.636 103.632 90)
+			(at 141.351 93.472 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3119,7 +3172,7 @@
 			)
 		)
 		(property "Footprint" "LHRS_Passives:SODFL5226X100N"
-			(at 128.905 102.87 0)
+			(at 134.62 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3130,7 +3183,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/VSSAF522-M3-H?qs=UkDUCjYnTB00gpgD%2Fb%2Fw%252BA%3D%3D"
-			(at 133.35 102.87 0)
+			(at 139.065 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3141,7 +3194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 102.87 0)
+			(at 139.065 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3152,7 +3205,7 @@
 			)
 		)
 		(property "Manufactuerer" "Vishay General Semiconductor "
-			(at 133.35 102.87 90)
+			(at 139.065 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3216,7 @@
 			)
 		)
 		(property "P/N" "VSSAF522-M3/H"
-			(at 133.35 102.87 90)
+			(at 139.065 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,7 +3227,7 @@
 			)
 		)
 		(property "LCSC" "C6326606"
-			(at 135.89 100.33 0)
+			(at 141.605 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3185,7 +3238,7 @@
 			)
 		)
 		(property "LCSC P/N" "C6326606 "
-			(at 133.35 102.87 90)
+			(at 139.065 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,7 +3257,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "D21")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -3321,7 +3374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cac9662-3280-4c53-b879-436dee9ec602")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 118.11 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,132 +3527,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:C3D25170H")
-		(at 170.18 102.87 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6dedad32-2652-4596-ae99-4fa52c767c73")
-		(property "Reference" "D22"
-			(at 172.72 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VSSAF522-M3/H"
-			(at 172.466 103.632 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LHRS_Passives:SODFL5226X100N"
-			(at 165.735 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/VSSAF522-M3-H?qs=UkDUCjYnTB00gpgD%2Fb%2Fw%252BA%3D%3D"
-			(at 170.18 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufactuerer" "Vishay General Semiconductor "
-			(at 170.18 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "VSSAF522-M3/H"
-			(at 170.18 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6326606"
-			(at 172.72 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C6326606 "
-			(at 170.18 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f86aabf7-e1da-4769-a8e3-b61f988b991f")
-		)
-		(pin "2"
-			(uuid "f592da13-867d-4fd9-b6c7-108e4985b6c9")
-		)
-		(instances
-			(project "PS-BPSLeader"
-				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "D22")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3617,7 +3545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "737ce2ec-4c21-43ea-90ff-803b13add4e4")
-		(property "Reference" "R86"
+		(property "Reference" "R76"
 			(at 92.71 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +3653,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "R86")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -3743,7 +3671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94c79ddc-957a-4d77-8b97-10bf75f04b27")
-		(property "Reference" "R87"
+		(property "Reference" "R78"
 			(at 168.91 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,7 +3779,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "R87")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -3869,7 +3797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39b5d80-3702-42f4-8da7-be3e61d64929")
-		(property "Reference" "R82"
+		(property "Reference" "R79"
 			(at 27.94 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +3905,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "R82")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -3994,7 +3922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c53e7cfc-a8b0-4e82-a938-2c49318b3b57")
-		(property "Reference" "C47"
+		(property "Reference" "C37"
 			(at 33.02 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,7 +4039,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "C47")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -4129,7 +4057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f756f6-efb4-421a-b654-08b5269afeff")
-		(property "Reference" "R84"
+		(property "Reference" "R80"
 			(at 67.31 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4165,7 @@
 		(instances
 			(project "PS-BPSLeader"
 				(path "/d4a4ed4f-0983-4aef-b212-0e3284ab3963/975a5890-d31b-4bf8-8164-e98394116f83"
-					(reference "R84")
+					(reference "R80")
 					(unit 1)
 				)
 			)

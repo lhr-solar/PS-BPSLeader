@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 1.075
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -254,6 +254,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -296,14 +300,6 @@
       ],
       [
         "pin_to_pin|1428750|673100|c68f883a-02ce-4f2b-ac34-64bb7b577d52|d48aa631-a31c-42ad-991d-dd8c93bdc522|||",
-        ""
-      ],
-      [
-        "pin_to_pin|762000|546100|f3f509c2-d3e6-47a0-8366-eea0c15e95c6|dde996d6-302b-482b-b103-33bed2f0833e|||",
-        ""
-      ],
-      [
-        "pin_to_pin|762000|571500|dde996d6-302b-482b-b103-33bed2f0833e|8e4c7bb7-d816-4723-bc9f-115c9c1034ff|||",
         ""
       ]
     ],
@@ -599,7 +595,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -949,7 +945,7 @@
         "uuid": "d4a4ed4f-0983-4aef-b212-0e3284ab3963"
       }
     ],
-    "used_designators": "R91,C108-109,LOGO1-2",
+    "used_designators": "D1-49,T1-2,#PWR1-26,R1-119,#FLG1-8,C1-65,FAN1-2,E_JP1-3,FB1-2,F1,H1-4,IC1-4,J1-16,JP1-2,L1,LED1-3,LOGO1-2,Q1-5,Reset1,SW1-2,TP1-19,TP_3.3V1,U1-13,Y1",
     "variants": []
   },
   "sheets": [
@@ -978,56 +974,52 @@
       "Charger_CAN_Transceiver"
     ],
     [
-      "37240678-40e7-4b21-a99e-c284d3b12e6a",
-      "ESP32"
+      "6d3ad40f-d44b-42e3-8655-42f54ce44d73",
+      "High Voltage Peripherals"
     ],
     [
       "ff3d6d8a-5585-4a16-aaa1-d2e71ebe7413",
       "ESTOP"
     ],
     [
-      "8dff3833-5b3d-484d-a711-1f7fb0d1bbda",
-      "Motor_Contactor"
+      "14f556c5-0bc3-4db8-8044-1211776b52a9",
+      "12VBuck"
     ],
     [
       "1a445fba-997a-4276-b1d7-6bccd354442b",
       "Power_Mux_PDU_ELCON"
     ],
     [
-      "d0687915-3890-41dc-9a8f-e7ee1bda9492",
-      "HV+ Contactor"
+      "ff8acd37-b409-4599-a452-9f08846bc1ab",
+      "PowerProtection"
     ],
     [
-      "3ea03975-64ac-45d5-b376-c81c9b8177bf",
-      "HV- Contactor"
+      "cce3293d-11e3-49ac-862c-b567bc24fb97",
+      "Debug_LEDs"
     ],
     [
       "975a5890-d31b-4bf8-8164-e98394116f83",
       "Fan"
     ],
     [
-      "92d40a22-22a8-4e19-ae2b-d2176aa2e41e",
-      "ESP32_LDO"
+      "642faa3f-2cf0-42ca-8d66-3702e939bad7",
+      "Motor Voltage Sense"
     ],
     [
-      "c396b043-4a62-4d2b-b629-091a6c3457ae",
-      "ESP32_Power_Mux"
+      "4ead4034-34d1-427f-89c1-53c9d8f52e0d",
+      "HV Voltage Sense"
     ],
     [
-      "408035a5-5a4d-4c9d-abf0-417376518132",
-      "12VBuck"
+      "cbbb76ea-56b4-43a6-9435-ec6bc4383c10",
+      "USB-C_Connector"
     ],
     [
-      "1b9256b7-8667-463d-8456-0ec3ca2120be",
-      "Power_USB_PD"
+      "7b2cd59c-35c3-4a6d-b17d-fdbdb5c613b6",
+      "Current_Sense"
     ],
     [
       "e693f766-4bc7-4d67-a672-39e10f482b8b",
       "BMS"
-    ],
-    [
-      "809e2845-19f2-4000-97b2-9d58cc5520c6",
-      "PowerProtection"
     ],
     [
       "62b47865-4d17-4cd5-b20c-36169ba543a0",
@@ -1036,18 +1028,6 @@
     [
       "3ac4b541-f87d-4cd8-af8e-016705365d4a",
       "Power_3V3_LDO"
-    ],
-    [
-      "0f3e3992-4755-4e76-a363-7a4e463e2a3d",
-      "Power_Mux_PD"
-    ],
-    [
-      "bbf4edc3-024d-405c-a803-bdefa7ee14fe",
-      "BPS_CAN_Transceiver"
-    ],
-    [
-      "60f452df-95c8-4604-8915-56b0ef413515",
-      "12V_Buck_Boost"
     ]
   ],
   "text_variables": {},
